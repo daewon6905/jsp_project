@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdf5aeb-4733-42d8-b34c-451b64e76772" name="Changes" comment="" />
+    <list default="true" id="bbdf5aeb-4733-42d8-b34c-451b64e76772" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/Catalina/localhost/ROOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/Catalina/localhost/ROOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/catalina.2025-11-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/catalina.2025-11-16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +26,35 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;daewon6905&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/daewon6905/jsp_project.git&quot;,
+    &quot;accountId&quot;: &quot;7fbc65a7-1a0a-4194-9bf2-045bcc9f1bce&quot;
+  }
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -27,12 +64,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Smart Tomcat.Tomcat.executor": "Run",
+    "git-widget-placeholder": "main",
     "onboarding.tips.debug.path": "C:/Users/1/Desktop/backend/jsp_project/src/main/java/me/daewon/jsp/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\backend\jsp_project\src\main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -42,7 +88,7 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="catalinaBase" value="C:\Users\1\Desktop\backend\jsp_project" />
       <option name="contextPath" value="/" />
-      <option name="docBase" value="C:\Users\1\Desktop\backend\jsp_project\src\webapp" />
+      <option name="docBase" value="C:\Users\1\Desktop\backend\jsp_project\src\main\webapp" />
       <option name="envOptions">
         <map />
       </option>
@@ -56,17 +102,7 @@
         </TomcatInfo>
       </option>
       <option name="vmOptions" value="" />
-      <module name="jsp_project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
-      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
-      <predefined_log_file enabled="true" id="Tomcat Access Log" />
-      <predefined_log_file id="Tomcat Catalina Log" />
-      <predefined_log_file id="Tomcat Manager Log" />
-      <predefined_log_file id="Tomcat Host Manager Log" />
+      <module name="jsp_project.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
