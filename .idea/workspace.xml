@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbdf5aeb-4733-42d8-b34c-451b64e76772" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_jp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_ko.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/discover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/guide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/discover.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/guide.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/Catalina/localhost/ROOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/Catalina/localhost/ROOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/catalina.2025-11-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/catalina.2025-11-16.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/catalina.2025-11-17.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/catalina.2025-11-17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost_access_log.2025-11-17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/localhost_access_log.2025-11-17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +70,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Smart Tomcat.Tomcat.executor": "Run",
-    "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "C:/Users/1/Desktop/backend/jsp_project/src/main/java/me/daewon/jsp/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/Desktop/backend/jsp_project/src/main/webapp&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/1/Desktop/backend/jsp_project/src/main/java/me/daewon/jsp/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\backend\jsp_project\src\main\webapp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1\Desktop\backend\jsp_project\src\main" />
     </key>
@@ -89,9 +101,6 @@
       <option name="catalinaBase" value="C:\Users\1\Desktop\backend\jsp_project" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="C:\Users\1\Desktop\backend\jsp_project\src\main\webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="port" value="8030" />
       <option name="tomcatInfo">

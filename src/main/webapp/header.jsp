@@ -12,9 +12,9 @@
     </div>
     <!-- Language selector -->
     <div class="navbar-langSelect">
-      <button onclick="setLang('en')">EN</button>
-      <button onclick="setLang('ko')">KO</button>
-      <button onclick="setLang('jp')">JP</button>
+        <a href="${pageContext.request.requestURI}?lang=en">EN</a>
+        <a href="${pageContext.request.requestURI}?lang=ko">KO</a>
+        <a href="${pageContext.request.requestURI}?lang=jp">JP</a>
     </div>
     <!-- 햄버거 버튼 -->
     <a href="#" class="navbar-togglebtn">
